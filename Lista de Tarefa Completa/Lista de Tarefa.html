@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Tarefas Completa</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Lista de Tarefas Completa</h1>
+        <div>
+            <p>Total de Tarefas: <span id="totalTarefas">0</span></p>
+            <p>Tarefas Concluídas: <span id="tarefasConcluidas">0</span></p>
+            <p>Tarefas Pendentes: <span id="tarefasPendentes">0</span></p>
+        </div>
+        <input type="text" id="novaTarefa" placeholder="Digite uma tarefa">
+        <input type="text" id="categoria" placeholder="Categorias">
+        <input type="text" id="prioridade" placeholder="Prioridade">
+        <button onclick="adicionarTarefa()">Adicionar Tarefa</button>
+        <ul id="listaTarefas"></ul>
+    </div>
+
+    <script src="Lista de Tarefa.js"></script>
+</body>
+</html>
